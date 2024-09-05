@@ -1,4 +1,16 @@
+/* <!--
+  Name: Salvador Macias
+  Date: 9.3.2024
+  CSC 372-01
+
+  This is my style file for the pie page where i attempted to make it look similar to the example.
+-->       */
+
+
 body {
+    background-image: url('silverware.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
     background-color: #FFFFFF;
     color: #404040;
     font-family: Georgia, Garamond, serif;
@@ -13,6 +25,8 @@ h3 {
     background-color: #F0F0F0;
     font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
     text-decoration: underline;
+    display: inline; 
+    padding: 2px 4px; 
 }
 
 h1 {
