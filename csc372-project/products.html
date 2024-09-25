@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sal's Pizza Stop - Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Delivery</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Menu Title -->
+  <section class="menu-header">
+    <h1>Our Menu</h1>
+    <p>Choose your favorite pizza!</p>
+  </section>
+  
+  <!-- Sorting and Filtering Controls -->
+  <section class="menu-controls">
+    <label for="sort">Sort By:</label>
+    <select id="sort">
+      <option value="popularity">Popularity</option>
+      <option value="price-low-high">Price: Low to High</option>
+      <option value="price-high-low">Price: High to Low</option>
+    </select>
+
+    <label for="filter">Filter By:</label>
+    <select id="filter">
+      <option value="all">All</option>
+      <option value="vegetarian">Vegetarian</option>
+      <option value="gluten-free">Gluten-Free</option>
+    </select>
+  </section>
+
+
+
+  <!-- Product Listing -->
+  <section class="product-list">
+    <div class="product">
+      <img src="https://cdn.shopify.com/s/files/1/0274/9503/9079/files/20220211142754-margherita-9920_5a73220e-4a1a-4d33-b38f-26e98e3cd986.jpg?v=1723650067" alt="Margherita Pizza">
+      <h3>Margherita Pizza</h3>
+      <p>$10.99</p>
+      <a href="#">View Details</a>
+    </div>
+
+    <div class="product">
+      <img src="https://www.jennycancook.com/wp-content/uploads/2013/02/PeppPizza_600.jpg" alt="Pepperoni Pizza">
+      <h3>Pepperoni Pizza</h3>
+      <p>$12.99</p>
+      <a href="#">View Details</a>
+    </div>
+
+    <div class="product">
+      <img src="https://bakerbynature.com/wp-content/uploads/2015/10/IMG_8442-31-500x375.jpg" alt="Mushroom Pizza">
+      <h3>Mushroom Pizza</h3>
+      <p>$14.99</p>
+      <a href="#">View Details</a>
+    </div>
+
+    <div class="product">
+      <img src="https://www.allrecipes.com/thmb/qZ7LKGV1_RYDCgYGSgfMn40nmks=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-24878-bbq-chicken-pizza-beauty-4x3-39cd80585ad04941914dca4bd82eae3d.jpg" alt="BBQ Chicken Pizza">
+      <h3>BBQ Chicken Pizza</h3>
+      <p>$13.99</p>
+      <a href="#">View Details</a>
+    </div>
+  </section>
+
+  <!-- Pagination Controls -->
+  <section class="pagination">
+    <a href="#">&laquo; Previous</a>
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">Next &raquo;</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Sal's Pizza Stop. All rights reserved.</p>
+    <ul>
+      <li><a href="#">Salvador Macias</a></li>
+      <li><a href="#">Terms of Service</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
