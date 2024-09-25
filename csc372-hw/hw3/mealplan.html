@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+  Name: Salvador Macias
+  Date: 09.25.24
+  CSC 372-01
+
+  This is the mealplan page for hw3 
+-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meal Plan</title>
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Meal Plan</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#meal-plan">Meal Plan</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <section id="recommendations">
+                    <h2>Recommended Dishes</h2>
+                    <ul id="dish-list">
+                        <li data-name="Chick-fil-A Sandwich" data-price="3.99">Chick-fil-A Sandwich - $3.99 <button class="add-to-plan">Add</button></li>
+                        <li data-name="Chick-fil-A Nuggets" data-price="4.99">Chick-fil-A Nuggets - $4.99 <button class="add-to-plan">Add</button></li>
+                        <li data-name="Waffle Fries" data-price="2.49">Waffle Fries - $2.49 <button class="add-to-plan">Add</button></li>
+                        <li data-name="Hot-dog" data-price="1.99">Hot-dog - $1.99 <button class="add-to-plan">Add</button></li>
+                        <li data-name="Ice cream" data-price="2.50">Ice cream - $2.50 <button class="add-to-plan">Add</button></li>
+                        <li data-name="Can of Mountain Dew" data-price="1.25">Can of Mountain Dew - $1.25 <button class="add-to-plan">Add</button></li>
+                        <li data-name="Cheese Pizza" data-price="8.99">Cheese Pizza - $8.99 <button class="add-to-plan">Add</button></li>
+                        <li data-name="Margherita Pizza" data-price="9.49">Margherita Pizza - $9.49 <button class="add-to-plan">Add</button></li>
+                        <li data-name="Chicken Salad" data-price="7.99">Chicken Salad - $7.99 <button class="add-to-plan">Add</button></li>
+                    </ul>
+                </section>
+                <section id="meal-plan">
+                    <h2>Your Meal Plan</h2>
+                    <ul id="meal-plan-list"></ul>
+                    <p>Total Amount: $<span id="total-amount">0.00</span></p>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Campus Culinary Adventures. All rights reserved.</p>
+        </footer>
+    </body>
+    </html>

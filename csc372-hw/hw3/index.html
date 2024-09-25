@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+  Name: Salvador Macias
+  Date: 09.25.24
+  CSC 372-01
+
+  This is the index page for hw3 
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Culinary Adventures</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Campus Culinary Adventures</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="mealplan.html">Meal Plan</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Welcome to UNCG's guide for food close by!</h2>
+            <p>Are you a culinary adventurer in search of the perfect meal on or near campus? Look no further! We’ve scoured the area around the Petty building to bring you the top three food establishments that are a must-visit for any food lover.</p>
+            <p>Whether you’re craving a quick lunch, or a delicious dinner, this list has something to satisfy every palate. So grab your wallet and walking shoes and get ready to explore the best flavors our campus has to offer!</p>
+        </section>
+        <section id="recommendations">
+            <article>
+                <h2>1. Chick-fil-A</h2>
+                <p>Located just a short walk from the Petty building, Chick-fil-A offers delicious food fast and for a reasonable price.</p>
+                <div class="dish-gallery">
+                    <div class="dish" onclick="showDish('dish1')">
+                        <img src="https://www.cfacdn.com/img/order/menu/Online/Entrees/Jul19_CFASandwich_pdp.png" alt="Chick-fil-A Sandwich" class="small">
+                        <p>Chick-fil-A Sandwich</p>
+                        <div class="description" id="description-dish1"></div>
+                    </div>
+                    <div class="dish" onclick="showDish('dish2')">
+                        <img src="https://www.cfacdn.com/img/order/menu/Online/Entrees/nuggets_wSauce_PDP.png" alt="Chick-fil-A Nuggets" class="small">
+                        <p>Chick-fil-A Nuggets</p>
+                        <div class="description" id="description-dish2"></div>
+                    </div>
+                    <div class="dish" onclick="showDish('dish3')">
+                        <img src="https://www.cfacdn.com/img/order/menu/Online/Sides%26treats/Medium_Lowered_1217shoot_1080x1080.png" alt="Waffle Fries" class="small">
+                        <p>Waffle Fries</p>
+                        <div class="description" id="description-dish3"></div>
+                    </div>
+                </div>
+            </article>
+            
+            <article>
+                <h2>2. Yum Yum Better Ice Cream</h2>
+                <p>Craving ice cream? Maybe even some cheap and tasty hot dogs? Well, look no further! Yum Yum's has some of the best value for food on campus—you can get hot dogs and ice cream all for less than $10.</p>
+                <div class="dish-gallery">
+                    <div class="dish" onclick="showDish('dish4')">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/12/8d/2f/b1/photo1jpg.jpg" alt="Yum-Yum hotdogs" class="small">
+                        <p>Hot-dog</p>
+                        <div class="description" id="description-dish4"></div>
+                    </div>
+                    <div class="dish" onclick="showDish('dish5')">
+                        <img src="https://www.visitgreensboronc.com/things-to-do/dining/YumYum.png" alt="icecream" class="small">
+                        <p>Ice cream</p>
+                        <div class="description" id="description-dish5"></div>
+                    </div>
+                    <div class="dish" onclick="showDish('dish6')">
+                        <img src="https://i5.walmartimages.com/asr/9a77a664-efa7-4b8a-9786-78b5117030ff.d789d6e9fccc7c4a29538778366d5052.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF" alt="Mountain dew" class="small">
+                        <p>Can of Mountain Dew</p>
+                        <div class="description" id="description-dish6"></div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <h2>3. Slices Pizza by Tony</h2>
+                <p>Well if you are like me you could eat pizza for every meal, so i had to include this restaurant. Located south-east of the petty building the slightly farther walk is worth it for the mouth-watering pizza and subs.</p>
+                <div class="dish-gallery">
+                    <div class="dish" onclick="showDish('dish7')">
+                        <img src="https://slice-menu-assets-prod.imgix.net/9337/1630403404_5c4a121873?fit=crop&w=320&h=320" alt="Cheese pizza" class="small">
+                        <p>Cheese Pizza</p>
+                        <div class="description" id="description-dish7"></div>
+                    </div>
+                    <div class="dish" onclick="showDish('dish8')">
+                        <img src="https://slice-menu-assets-prod.imgix.net/9337/1608683748_cda961bb9e?fit=crop&w=320&h=320" alt="Margharita pizza" class="small">
+                        <p>Margharita Pizza</p>
+                        <div class="description" id="description-dish8"></div>
+                    </div>
+                    <div class="dish" onclick="showDish('dish9')">
+                        <img src="https://slice-menu-assets-prod.imgix.net/9337/1630403434_a1896d56b5?fit=crop&w=320&h=320" alt="Chicken Salad" class="small">
+                        <p>Chicken Salad</p>
+                        <div class="description" id="description-dish9"></div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Campus Culinary Adventures. All rights reserved.</p>
+    </footer>
+</body>
+</html>
