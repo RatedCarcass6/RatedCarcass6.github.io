@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Sal's Pizza Stop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Menu</a></li>
+                <li><a href="details.html">Product Info</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Shopping Cart Section -->
+    <section class="shopping-cart">
+        <h1>Your Cart</h1>
+
+        <div class="cart-item">
+            <img src="https://cdn.shopify.com/s/files/1/0274/9503/9079/files/20220211142754-margherita-9920_5a73220e-4a1a-4d33-b38f-26e98e3cd986.jpg?v=1723650067" alt="Margherita Pizza" class="cart-item-img">
+            <div class="cart-item-details">
+                <h3>Margherita Pizza</h3>
+                <p>$10.99</p>
+                <label for="quantity-1">Quantity:</label>
+                <input type="number" id="quantity-1" value="1">
+                <button>Update</button>
+                <button>Remove</button>
+            </div>
+            <p class="cart-item-total">Total: $10.99</p>
+        </div>
+
+        <div class="cart-item">
+            <img src="https://www.jennycancook.com/wp-content/uploads/2013/02/PeppPizza_600.jpg" alt="Pepperoni Pizza" class="cart-item-img">
+            <div class="cart-item-details">
+                <h3>Pepperoni Pizza</h3>
+                <p>$12.99</p>
+                <label for="quantity-2">Quantity:</label>
+                <input type="number" id="quantity-2" value="2">
+                <button>Update</button>
+                <button>Remove</button>
+            </div>
+            <p class="cart-item-total">Total: $25.98</p>
+        </div>
+
+        <!-- Cart Total Section -->
+        <div class="cart-summary">
+            <p><strong>Subtotal:</strong> $36.97</p>
+            <p><strong>Tax (6.75%):</strong> $2.49</p>
+            <p><strong>Delivery Fee:</strong> $5.00</p>
+            <p><strong>Total:</strong> $44.46</p>
+            <button class="checkout-btn">Checkout</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Sal's Pizza Stop. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Salvador Macias</a></li>
+            <li><a href="#">Terms of Service</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
