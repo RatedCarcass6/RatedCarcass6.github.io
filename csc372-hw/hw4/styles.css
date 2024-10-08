@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.choice {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: border 0.3s;
+}
+
+.choice.selected {
+    border: 5px solid #ff0000;
+}
+
+.computer-choice {
+    margin: 20px 0;
+}
+
+.computer-choice-image {
+    width: 100px;
+    height: 100px;
+}
+
+.outcome {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.score {
+    margin-top: 20px;
+}
+
+#resetButton {
+    margin-top: 10px;
+    padding: 5px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#resetButton:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock-Paper-Scissors</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rock-Paper-Scissors</h1>
+
+        <section class="player-throw">
+            <h2>Your Throw</h2>
+            <div class="choices">
+                <img src="https://www.outdooressentialproducts.com/-/media/project/ufpi/outdoor-essentials/products/images/landscape/rocks/204923_small-landscape-rock-grey/outdoor-essentials_gray-landscape-small-rock_image_204923_st01.jpg?sc_lang=en"
+                    alt="Rock" class="choice" data-choice="rock">
+                <img src="https://www.paperpapers.com/media/catalog/product/cache/040ab45878687996a103a8acd78a7429/p/l/plike-white-811.jpg"
+                    alt="Paper" class="choice" data-choice="paper">
+                <img src="https://i.ebayimg.com/images/g/Sf8AAOSwDINipyBs/s-l140.webp" alt="Scissors" class="choice"
+                    data-choice="scissors">
+            </div>
+        </section>
+
+        <section class="computer-throw">
+            <h2>Computer's Throw</h2>
+            <div class="computer-choice">
+                <img id="computerImage" src="https://m.media-amazon.com/images/I/51-TrKw+YtL._AC_SL1500_.jpg"
+                    alt="Question Mark" class="computer-choice-image">
+            </div>
+        </section>
+
+        <section class="outcome">
+            <h2>Outcome</h2>
+            <p id="result">Make your choice to see the outcome!</p>
+        </section>
+        <section class="score">
+            <h2>Score</h2>
+            <p>Wins: <span id="wins">0</span></p>
+            <p>Losses: <span id="losses">0</span></p>
+            <p>Ties: <span id="ties">0</span></p>
+            <button id="resetButton">Reset Score</button>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
