@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Product Listing</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <!-- Admin Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="admin-upload.html">Bulk Upload</a></li>
+        <li><a href="admin-products.html">Manage Products</a></li>
+        <li><a href="#">Sign Out</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Product Listing Section -->
+  <section class="product-listing">
+    <h1>Product Listing</h1>
+
+    <form class="search-filter">
+      <label for="search">Search Product:</label>
+      <input type="text" id="search" name="search" placeholder="Search by name or category...">
+      <button type="submit">Search</button>
+    </form>
+
+    <table class="product-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Category</th>
+          <th>Price</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Margherita Pizza</td>
+          <td>Classic Margherita pizza with mozzarella and basil.</td>
+          <td>Pizza</td>
+          <td>$10.99</td>
+          <td>
+            <a href="product-edit.html">Edit</a> | 
+            <a href="#">Delete</a> | 
+            <a href="#">Archive</a>
+          </td>
+        </tr>
+        <!-- Additional products would be listed here -->
+      </tbody>
+    </table>
+
+    <button class="add-product-btn">Add New Product</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Sal's Pizza Stop Admin. All rights reserved.</p>
+  </footer>
+</body>
+</html>

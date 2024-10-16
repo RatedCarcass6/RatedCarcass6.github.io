@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Bulk Upload</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <!-- Admin Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="admin-upload.html">Bulk Upload</a></li>
+        <li><a href="admin-products.html">Manage Products</a></li>
+        <li><a href="#">Sign Out</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Bulk Upload Section -->
+  <section class="upload-section">
+    <h1>Bulk Upload Products</h1>
+    <form action="#" method="POST" enctype="multipart/form-data">
+      <label for="file-upload">Select a file to upload (JSON, CSV, or TXT):</label>
+      <input type="file" id="file-upload" name="file-upload" accept=".json, .csv, .txt">
+      <button type="submit">Upload File</button>
+    </form>
+    
+    <h2>Example File Format (JSON):</h2>
+    <pre>
+    [
+      {
+        "id": 1,
+        "name": "Margherita Pizza",
+        "description": "Classic Margherita pizza with mozzarella and basil.",
+        "category": "Pizza",
+        "price": 10.99,
+        "image": "pizza1.jpg"
+      }
+    ]
+    </pre>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Sal's Pizza Stop Admin. All rights reserved.</p>
+  </footer>
+</body>
+</html>
